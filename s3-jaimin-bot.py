@@ -49,7 +49,7 @@ body = 'S3-jaimin-bot\n' + 'Site Name:\n' + url + '\n\n' + body
 
 # slack notify
 
-url = "https://hooks.slack.com/services/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"
+url = "<-----------------------YOUR SLACK WEBHOOK URL----------------------------->" 
 webhook = WebhookClient(url)
 
 response = webhook.send(text=body)
